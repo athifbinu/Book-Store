@@ -2,7 +2,7 @@ import React from 'react'
 import {AppBar, Tab, Toolbar, Typography,Tabs} from '@mui/material'
 import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
 import { useState } from 'react';
-
+import {NavLink} from 'react-router-dom'
 
 const Header=() =>{
       
@@ -21,9 +21,11 @@ const Header=() =>{
            textColor='inherit' indicatorColor="secondary" value={1}
            onChange={(e,val)=>setValue(val)}
             >
-              <Tab  to='/add'  label='add product'/>
-              <Tab label='Books'/>
-              <Tab label='About us'/>
+                
+      
+                   <Tab LinkComponent={NavLink} to="/add" label='Add Book'/>
+                <Tab LinkComponent={NavLink} to="/books" label="Books"/>
+                <Tab LinkComponent={NavLink} to="/about" label='About Us'/>
           </Tabs>
          </Toolbar>
       </AppBar>

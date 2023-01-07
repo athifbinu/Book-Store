@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Book() {
+function Home() {
   return (
     <div>
-    
+      <h1>hello home</h1>
     </div>
   )
 }
 
-export default Book
+export default Home

@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Book() {
+function BokkDeatils() {
   return (
     <div>
-    
+      
     </div>
   )
 }
 
-export default Book
+export default BokkDeatils
