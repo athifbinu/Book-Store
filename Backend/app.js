@@ -29,6 +29,6 @@ app.use(express.json());
 
 
 
-app.listen(3000,()=>{
-    console.log("post 3000 stated")
+app.listen(5000,()=>{
+    console.log("post 5000 stated")
 })
