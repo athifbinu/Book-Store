@@ -54,7 +54,7 @@ const addBook=async(req,res,next)=>{
       if(!book) {
         return res.status(500).json({message:"unableti add"})
       }
-      return res.status(201  ).json({book})
+      return res.status(201).json({book})
     
 }
 
@@ -96,7 +96,7 @@ const deleteBook =async(req,res,next)=>{
     if(!book) {
         return res.status(404).json({message:"unable to delete by this id"})
       }
-      return res.status(200).json({book})
+      return res.status(200).json({message:"Book dealeted successfully"})
 }
 
 

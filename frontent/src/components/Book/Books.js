@@ -1,5 +1,6 @@
 import React, { useEffect,useState } from 'react'
 import axios from 'axios'
+import Book from '../../../../Backend/models/Book'
 const URL ="http://localhost:5000/books"
 
 const fetchHandler =async()=>{
@@ -11,12 +12,18 @@ function Books() {
   useEffect(()=>{
        fetchHandler().then(data=>setBooks(data))
 
-  },);
+  },[]);
 
    console.log(books)
   return (
     <div>
-      <h1>Books file success</h1>
+      <ul>
+        {books && books.map((book,i)=>{
+          <div key={i}>
+             <Book/>
+          </div>
+        })}
+      </ul>
     </div>
   )
 }
