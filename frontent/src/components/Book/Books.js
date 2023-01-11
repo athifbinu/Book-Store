@@ -10,17 +10,18 @@ const fetchHandler =async()=>{
 function Books() {
   const [books,setBooks]=useState()
   useEffect(()=>{
-       fetchHandler().then(data=>setBooks(data))
+       fetchHandler().then((data)=>setBooks(data))
 
   },[]);
 
    console.log(books)
+
   return (
     <div>
       <ul>
         {books && books.map((book,i)=>{
           <div key={i}>
-             <Book/>
+             <Book book={book}/>
           </div>
         })}
       </ul>
