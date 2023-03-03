@@ -1,0 +1,47 @@
+.mt{
+    margin-top: -343px;
+}
+.df{
+    display: flex;
+}
+.btn{
+    width: 90px;
+    border-radius: 22px;
+    border: none;
+    transition: 0.3s ease;
+    font-size: 14px;
+    height: 35px;
+    background-color: red;
+    opacity: 0.8;
+    color: black;
+}
+.btn:hover{
+    opacity: 1;
+    cursor: pointer;
+    background-color: #DD0004; 
+    box-shadow:0 0 5px #DD0004,
+               0 0 20px #DD0004,
+               0 0 60px #DD0004,
+               0 0 150px #DD0004;
+
+}
+.up-btn{
+    width: 90px;
+    border-radius: 22px;
+    border: none;
+    transition: 0.3s ease;
+    font-size: 14px;
+    height: 35px;
+    background-color: rgb(79, 214, 25);
+    opacity: 0.8;
+    color: black;
+}
+.up-btn:hover{
+    opacity: 1;
+    cursor: pointer;
+    background-color: rgb(79, 214, 25); 
+    box-shadow:0 0 5px rgb(79, 214, 25),
+               0 0 20px rgb(79, 214, 25),
+               0 0 60px rgb(79, 214, 25),
+               0 0 150px rgb(79, 214, 25);
+}

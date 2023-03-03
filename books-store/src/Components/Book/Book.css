@@ -4,14 +4,17 @@ ul {
     justify-content: start;
     align-items: center;
     flex-wrap: wrap;
-    margin: auto;
+    margin: 0px;
 }
 
 li {
-    padding: 10px;
+    padding: 9px;
     width: 250px;
     max-width: 250px;
-    max-height: 400px;
+    max-height: 407px;
+    margin-top: 392px;
+    margin-left: 35px;
+    list-style-type: none;
 }
 
 .card{
@@ -42,4 +45,3 @@ li {
 .card p {
     padding: 3px;
 }
-

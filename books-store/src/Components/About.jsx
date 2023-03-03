@@ -5,8 +5,8 @@ const About = () => {
   return (
     <div>
       <Box display={'flex'} flexDirection='column' alignItems={'center'}>
-        <Typography sx={{fontFamily:'fantasy'}} variant='h2'>This is a CRUD Application</Typography>
-        <Typography  sx={{fontFamily:'fantasy'}} variant='h3'>By MERN Stack</Typography>
+        <Typography sx={{fontFamily:'sans-serif'}} variant='h2'>This is a CRUD Application</Typography>
+        <Typography  sx={{fontFamily:'sans-serif'}} variant='h3'>Using  Stack</Typography>
       </Box>
     </div>
   )
