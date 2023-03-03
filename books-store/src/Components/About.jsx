@@ -4,9 +4,9 @@ import React from 'react'
 const About = () => {
   return (
     <div>
-      <Box display={'flex'} flexDirection='column' alignItems={'center'}>
+      <Box justifyContent={'center'} display={'flex'} flexDirection='column' alignItems={'center'}>
         <Typography sx={{fontFamily:'sans-serif'}} variant='h2'>This is a CRUD Application</Typography>
-        <Typography  sx={{fontFamily:'sans-serif'}} variant='h3'>Using  Stack</Typography>
+        <Typography  sx={{fontFamily:'sans-serif'}} variant='h3'>Using Mern  Stack</Typography>
       </Box>
     </div>
   )

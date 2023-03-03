@@ -3,7 +3,6 @@ import React,{useEffect,useState} from 'react'
 import Book from './Book'
 import "./Book.css"
 import axios from 'axios';
-import {Col} from 'reactstrap'
 // import Book from '../../../../Backend/model/Book';
 const URL = 'http://localhost:5000/books';
 
